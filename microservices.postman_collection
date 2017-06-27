@@ -1,0 +1,44 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Microservices",
+		"_postman_id": "904566d4-790d-463d-5eee-4e0e7e1bc685",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET /a-bootiful-client/default",
+			"request": {
+				"url": "http://localhost:8888/a-bootiful-client/default",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST /refresh",
+			"request": {
+				"url": "http://localhost:8080/refresh",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET /service-instances/eureka-bootiful-client",
+			"request": {
+				"url": "http://localhost:8080/service-instances/eureka-bootiful-client",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
