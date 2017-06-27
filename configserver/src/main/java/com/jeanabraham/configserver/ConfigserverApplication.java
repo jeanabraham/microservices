@@ -1,4 +1,4 @@
-package com.jeanabraham;
+package com.jeanabraham.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
