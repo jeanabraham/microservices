@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class NetflixEurekaClientApplication {
+public class NetflixEurekaClientApplication3 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NetflixEurekaClientApplication.class, args);
+		SpringApplication.run(NetflixEurekaClientApplication3.class, args);
 	}
 }
 
