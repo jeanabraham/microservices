@@ -1,6 +1,6 @@
 ---
 spring:
-  profiles: dev
+  profiles: dev,default
   datasource:
     name: devdb
   
