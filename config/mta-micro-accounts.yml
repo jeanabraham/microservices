@@ -1,0 +1,17 @@
+---
+spring:
+  profiles: dev
+  datasource:
+    name: devdb
+  
+---
+spring:
+  profiles: sit
+  datasource:
+    name: sitdb
+
+---
+spring:
+  profiles: prod
+  datasource:
+    name: proddb
